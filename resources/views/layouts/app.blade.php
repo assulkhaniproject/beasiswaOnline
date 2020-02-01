@@ -54,9 +54,10 @@
                                 </li>
                             @endif
                         @else
+
                                <li class="btn-toolbar">
                                 <a id="animated-buttons">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                    {{ Auth::user()->name }} <!-- <span class="caret"></span> -->
                                 </a>
 
                                 <div class="button-container">
